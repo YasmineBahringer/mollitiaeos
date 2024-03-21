@@ -1,0 +1,42 @@
+{
+  "name": "mollitiaeos",
+  "version": "1.0.0",
+  "main": "dist/commonjs/index.js",
+  "module": "dist/esm/index.js",
+  "bin": "dist/commonjs/run.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/YasmineBahringer/mollitiaeos.git"
+  },
+  "jest": {
+    "transform": {
+      ".(ts|tsx)": "<rootDir>/node_modules/ts-jest/preprocessor.js"
+    },
+    "testRegex": "(/__tests__/.*|\\.(test|spec))\\.(ts)$",
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js"
+    ]
+  },
+  "keywords": [
+    "EVM",
+    "quas",
+    "facilis",
+    "quis",
+    "Solidity"
+  ],
+  "author": "JedidiahBoyle",
+  "license": "MIT",
+  "dependencies": {
+    "simple-pure-utils": "^2.0.37"
+  },
+  "devDependencies": {
+    "@types/jest": "^27.0.2",
+    "@types/node": "^16.9.6",
+    "jest": "^27.2.1",
+    "jest-cli": "^27.2.1",
+    "ts-jest": "^27.0.5",
+    "typescript": "^4.4.3"
+  }
+}
